@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #333;
+  font-size: 13px;
+  font-family: 'Verdana','Trebuchet','Century Gothic' , sans-serif;
+}
+
+a:link {
+  color: #333;
+}
+a:visited {
+  color: #666;
+}
+a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.content {
+  margin: 17px 31px;
+}
+
+.flash {
+  color: #080;
+  margin: 33px;
+}
+
+h1 {
+  font-size: 26px;
+}
+h2 {
+  font-size: 20px;
+}
+h4 {
+  font-weight: lighter;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.content-index {
+  margin: 26px 33px;
+}
+
+/* テーブルのデザイン（index） */
+table {
+  width: 850px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border-spacing: 12px 0 ;
+}
+th {
+  height: 33px;
+}
+tr {
+  height: 33px;
+}
+
+.index-menu {
+  width: 55px;
+}
+
+.content-box {
+  margin: 0 33px;
+}
+
+.content-box-show {
+  margin: 0 0 0 35px;
+  line-height: 51px;
+}
+
+.content-edit{
+  margin: 25px 33px;
+}
+
+.content-edit-box {
+  margin: 12px 0 9px;
+}
+
+.menu {
+  margin: 17px 2px;
+}
+
+/* ボタンのCSS */
+.show_#{id} {
+  display: inline-block;
+  color: #333;
+}
+
+.edit_#{id} {
+  display: inline-block;
+  color: #333;
+}
+
+.back {
+  display: inline-block;
+  color: #333;
+}
+
+/* フォームのCSS */
+form {
+  margin-top:15px;
+}
+.book_title {
+  margin-bottom: 10px;
+}
+.book_body {
+  margin-bottom: 10px;
+}
+
+/* レスポンジブ */
+@media screen and (max-width: 1024px) {
+  table {
+         width: 100%;
+  }
+}

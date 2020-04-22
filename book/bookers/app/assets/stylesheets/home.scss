@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #333;
+  font-family: 'Verdana','Trebuchet','Century Gothic' , sans-serif;
+}
+
+a {
+  color: #666;
+}
+a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.body {
+  margin: 23px 33px;
+}
+
+h1 {
+  font-size: 26px;
+}
+
+.body-box {
+  margin: 6px 33px;
+}
+
+.body-box p {
+  font-size: 13px;
+  line-height: 51px;
+}
